@@ -138,7 +138,7 @@ ORDER BY Hiredate ASC;
 ```
 SELECT *
 FROM manager
-WHERE Hiredate < TO_DATE('30-Sep-81', 'DD-Mon-YY');
+WHERE Hiredate < '1981-09-30';
 ```
 
 
